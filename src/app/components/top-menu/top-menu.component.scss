@@ -1,0 +1,17 @@
+.top-menu{
+    padding-left: 20px;    
+}
+.menu-wrapper {
+    color: blanchedalmond;
+}
+#open {
+    height: 10px;
+    overflow: hidden;
+    transition-property: height;
+    transition: all 1s ease-in-out;
+}
+.menu-wrapper:hover #open {
+    height: 100px;
+    background-color: #725f42;
+    cursor: pointer;
+}

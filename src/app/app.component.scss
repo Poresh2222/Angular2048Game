@@ -1,0 +1,33 @@
+.body-wrapper {
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+
+    .header-container {
+        position: relative;
+        height: 70px;
+  
+        .header-fixed {
+            width: 1000px;
+            position: fixed;
+            top: 0px;
+            z-index: 2;
+        }
+    }
+    .top-container {
+        position: relative;
+        top: 0px;
+        height: 70px;
+        width: 100%;
+        z-index: 2;
+        background-color:#725f42;
+    }
+    .content-body{
+        width: 900px;
+        height: 700px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 25px;
+    }
+}
