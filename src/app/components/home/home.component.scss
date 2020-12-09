@@ -1,0 +1,21 @@
+.button{
+    display: inline-block;
+    padding: 13px 60px;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    color: #fff; // text
+    background-color: #bbada0;
+    border-radius: 1px;
+    box-shadow: 0 1px #999
+}
+.home-content{
+    padding-top: 50px;
+
+    .content-right{
+        padding-left: 20px;
+        width: 490px;
+        font-size: 25px;
+
+    }
+}
